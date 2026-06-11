@@ -2,71 +2,163 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ---------------------------------------------------------------------------
-   Longfu88 Malaysia — base layer
-   Sofia Sans is loaded via <link> in each page <head> (Google Fonts).
-   --------------------------------------------------------------------------- */
+/* ===========================================================================
+   Longfu88 Malaysia — "Awaken the Dragon" design system
+   Brand CI: red palette, Sofia Sans, 0px radius, 4px grid, bold/high-energy.
+   Sofia Sans (body/UI) + Sofia Sans Condensed (display) loaded via <head>.
+   =========================================================================== */
+:root {
+  --red: #C70028;
+  --red-2: #9F0020;
+  --red-bright: #EB002F;
+  --text: #635B5B;
+  --ink: #1A0E10;   /* dark base for hero/footer */
+  --night: #0C0708; /* deepest */
+}
+
 @layer base {
-  html {
-    scroll-behavior: smooth;
-  }
+  html { scroll-behavior: smooth; }
   body {
-    @apply bg-brand-bg text-brand-text font-sans;
+    @apply bg-white font-sans;
+    color: var(--text);
     font-size: 14px;
     line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
   }
-  h1 {
-    @apply text-brand-text;
-    font-size: 28px;
-    line-height: 1.2;
-    font-weight: 800;
+  h1, h2, h3 { color: inherit; }
+  a { color: var(--red-bright); }
+  a:hover { color: var(--red-2); }
+  ::selection { background: var(--red); color: #fff; }
+}
+
+@layer components {
+  .container-site { @apply mx-auto w-full max-w-6xl px-4; }
+
+  /* Display type — condensed, heavy, tight */
+  .display {
+    font-family: "Sofia Sans Condensed", "Sofia Sans", sans-serif;
+    font-weight: 900;
+    line-height: 0.92;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
   }
-  h2 {
-    font-size: 28px;
-    line-height: 1.25;
-    font-weight: 700;
+
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 font-bold uppercase tracking-wide text-white transition-all;
+    background: var(--red);
+    font-size: 14px;
+    box-shadow: 0 12px 30px -12px rgba(199, 0, 40, 0.65);
   }
-  h3 {
-    font-size: 18px;
-    font-weight: 700;
+  .btn-primary:hover {
+    background: var(--red-2);
+    color: #fff;
+    box-shadow: 0 16px 38px -10px rgba(235, 0, 47, 0.8);
+    transform: translateY(-1px);
   }
-  a {
-    @apply text-brand-link;
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 font-bold uppercase tracking-wide transition-all;
+    border: 2px solid var(--red);
+    color: var(--red);
+    font-size: 14px;
   }
-  a:hover {
-    @apply text-brand-secondary;
+  .btn-outline:hover { background: var(--red); color: #fff; }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center px-6 py-3 font-bold uppercase tracking-wide transition-all;
+    border: 2px solid rgba(255,255,255,0.4);
+    color: #fff;
+  }
+  .btn-ghost:hover { background: #fff; color: var(--ink); }
+
+  .eyebrow {
+    @apply mb-3 inline-block text-xs font-extrabold uppercase tracking-[0.22em];
+    color: var(--red-bright);
+  }
+
+  /* Sharp cards */
+  .card {
+    @apply border border-gray-200 bg-white p-6 transition-all;
+  }
+  .card-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 22px 44px -22px rgba(199, 0, 40, 0.4);
+    border-color: var(--red);
   }
 }
 
 /* ---------------------------------------------------------------------------
-   Reusable components — keep the 16 pages visually consistent.
+   Hero — dark, dramatic, with red glow, grain and dragon watermark
    --------------------------------------------------------------------------- */
-@layer components {
-  .container-site {
-    @apply mx-auto w-full max-w-6xl px-4;
-  }
-
-  /* Primary call-to-action — bold brand red, sharp corners */
-  .btn-primary {
-    @apply inline-flex items-center justify-center bg-brand-primary px-6 py-3
-           font-bold uppercase tracking-wide text-white transition-colors
-           hover:bg-brand-secondary;
-    font-size: 14px;
-  }
-  .btn-outline {
-    @apply inline-flex items-center justify-center border-2 border-brand-primary
-           px-6 py-3 font-bold uppercase tracking-wide text-brand-primary
-           transition-colors hover:bg-brand-primary hover:text-white;
-    font-size: 14px;
-  }
-
-  /* Section heading eyebrow */
-  .eyebrow {
-    @apply mb-2 inline-block text-xs font-bold uppercase tracking-widest text-brand-accent;
-  }
-
-  /* Trust / info card */
-  .card {
-    @apply border border-gray-200 bg-white p-6;
-  }
+.hero {
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(120% 130% at 82% -20%, rgba(235, 0, 47, 0.42), transparent 58%),
+    radial-gradient(90% 90% at 0% 120%, rgba(159, 0, 32, 0.35), transparent 60%),
+    linear-gradient(180deg, var(--ink), var(--night));
+  color: #fff;
+  overflow: hidden;
+  /* sharp diagonal bottom edge */
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 46px), 0 100%);
 }
+/* fine grain overlay */
+.hero::before {
+  content: "";
+  position: absolute; inset: 0; z-index: -1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  mix-blend-mode: screen;
+}
+/* giant dragon character watermark */
+.dragon-mark {
+  position: absolute;
+  right: -2%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+  font-family: "Sofia Sans", serif;
+  font-size: 46vw;
+  line-height: 1;
+  font-weight: 900;
+  color: rgba(235, 0, 47, 0.10);
+  text-shadow: 0 0 80px rgba(235, 0, 47, 0.25);
+  user-select: none;
+  pointer-events: none;
+}
+@media (min-width: 1024px) { .dragon-mark { font-size: 34vw; } }
+
+/* Promo marquee */
+.marquee { overflow: hidden; white-space: nowrap; }
+.marquee__track {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 26s linear infinite;
+}
+.marquee:hover .marquee__track { animation-play-state: paused; }
+@keyframes marquee { to { transform: translateX(-100%); } }
+
+/* Staggered load reveal */
+.reveal { opacity: 0; transform: translateY(20px); animation: revealUp 0.75s cubic-bezier(0.2, 0.7, 0.2, 1) forwards; }
+@keyframes revealUp { to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; animation: none; }
+  .marquee__track { animation: none; padding-left: 0; }
+}
+
+/* Category tile */
+.tile {
+  position: relative; overflow: hidden;
+  background: #fff; border: 1px solid #e5e7eb;
+  padding: 1.5rem; transition: all 0.25s ease;
+}
+.tile__num {
+  position: absolute; right: 0.5rem; top: -0.4rem;
+  font-family: "Sofia Sans Condensed", sans-serif; font-weight: 900;
+  font-size: 5rem; line-height: 1; color: rgba(199, 0, 40, 0.07);
+  transition: color 0.25s ease;
+}
+.tile:hover { border-color: var(--red); transform: translateY(-4px); box-shadow: 0 22px 44px -24px rgba(199,0,40,0.45); }
+.tile:hover .tile__num { color: rgba(199, 0, 40, 0.14); }
+
+/* Section divider accent */
+.rule { height: 4px; width: 56px; background: var(--red); }
