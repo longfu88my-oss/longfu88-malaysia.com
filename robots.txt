@@ -1,3 +1,33 @@
+# Longfu88 Malaysia — robots.txt
+# Search + AI-answer crawlers are welcome (brand microsite, 18+).
+
+# AI answer engines
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Search engines
+User-agent: bingbot
+Allow: /
+
+# Everything else
 User-agent: *
 Allow: /
 
