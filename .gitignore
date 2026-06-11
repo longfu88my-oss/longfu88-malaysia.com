@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Tailwind / build artifacts (compiled CSS is committed; intermediate caches are not)
+.cache/
+*.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Env / secrets — never commit
+.env
+.env.*
