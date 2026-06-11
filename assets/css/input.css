@@ -87,83 +87,54 @@
 }
 
 /* ---------------------------------------------------------------------------
-   Hero banner slider — 2 slides (video + image) with overlaid headline & CTA
+   Hero banner — autoplay dragon video with overlaid headline & CTA
    --------------------------------------------------------------------------- */
-.hero-slider { position: relative; overflow: hidden; background: var(--ink); }
-.hero-slider__viewport { position: relative; min-height: 380px; }
-@media (min-width: 640px)  { .hero-slider__viewport { min-height: 440px; } }
-@media (min-width: 1024px) { .hero-slider__viewport { min-height: 560px; } }
-
-.hero-slide {
-  position: absolute; inset: 0;
-  display: flex; align-items: center;
-  opacity: 0; visibility: hidden;
-  transition: opacity 0.8s ease;
+.hero-banner {
+  position: relative;
+  overflow: hidden;
+  background-color: #cdd9e6; /* sky fallback before video/poster loads */
 }
-.hero-slide.is-active { opacity: 1; visibility: visible; z-index: 1; }
-
-.hero-slide__media {
-  position: absolute; inset: 0;
+.hero-banner__media {
+  position: absolute; inset: 0; z-index: 0;
   width: 100%; height: 100%;
   object-fit: cover; object-position: center;
 }
-/* left dark wash so the headline stays legible over busy artwork */
-.hero-slide__scrim {
-  position: absolute; inset: 0;
+/* left white wash so the dark headline stays legible over the sky */
+.hero-banner::before {
+  content: "";
+  position: absolute; inset: 0; z-index: 1;
   background: linear-gradient(90deg,
-    rgba(12,7,8,0.82) 0%,
-    rgba(12,7,8,0.55) 40%,
-    rgba(12,7,8,0.15) 70%,
-    rgba(12,7,8,0)    100%);
+    rgba(255,255,255,0.95) 0%,
+    rgba(255,255,255,0.85) 26%,
+    rgba(255,255,255,0.45) 46%,
+    rgba(255,255,255,0.05) 64%,
+    rgba(255,255,255,0)    80%);
 }
 @media (max-width: 640px) {
-  .hero-slide__scrim {
-    background: linear-gradient(90deg, rgba(12,7,8,0.86) 0%, rgba(12,7,8,0.62) 60%, rgba(12,7,8,0.3) 100%);
+  .hero-banner::before {
+    background: linear-gradient(90deg, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.82) 55%, rgba(255,255,255,0.35) 100%);
   }
 }
-.hero-slide__inner { position: relative; z-index: 2; padding-top: 3.5rem; padding-bottom: 3.5rem; }
-.hero-slide__heading { display: block; max-width: 40rem; }
-.hero-slide__sub {
+.hero-banner__inner {
+  position: relative; z-index: 2;
+  display: flex; flex-direction: column; justify-content: center;
+  min-height: 380px;
+  padding-top: 3.5rem; padding-bottom: 3.5rem;
+}
+@media (min-width: 640px)  { .hero-banner__inner { min-height: 440px; } }
+@media (min-width: 1024px) { .hero-banner__inner { min-height: 560px; } }
+.hero-banner__heading { display: block; max-width: 40rem; }
+.hero-banner__sub {
   display: block; color: var(--red-bright);
   font-size: 0.8rem; font-weight: 800; text-transform: uppercase;
   letter-spacing: 0.2em; margin-bottom: 0.85rem;
 }
-.hero-slide__title {
-  display: block; color: #fff;
+.hero-banner__title {
+  display: block; color: var(--ink);
   font-size: clamp(34px, 6.5vw, 72px); line-height: 0.95;
 }
-.hero-slide__title span { color: var(--red-bright); }
-.hero-slide__cta { margin-top: 1.85rem; }
-
-/* arrows */
-.hero-slider__arrow {
-  position: absolute; top: 50%; transform: translateY(-50%); z-index: 3;
-  width: 44px; height: 44px;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.75rem; line-height: 1; font-weight: 700;
-  color: #fff; background: rgba(0,0,0,0.35);
-  border: 1px solid rgba(255,255,255,0.3);
-  transition: background 0.2s ease;
-}
-.hero-slider__arrow:hover { background: var(--red); }
-.hero-slider__arrow--prev { left: 0.75rem; }
-.hero-slider__arrow--next { right: 0.75rem; }
-@media (max-width: 640px) { .hero-slider__arrow { width: 38px; height: 38px; font-size: 1.4rem; } }
-
-/* dots */
-.hero-slider__dots {
-  position: absolute; bottom: 1rem; left: 50%; transform: translateX(-50%);
-  z-index: 3; display: flex; gap: 0.5rem;
-}
-.hero-dot {
-  width: 28px; height: 4px; background: rgba(255,255,255,0.45);
-  transition: background 0.2s ease; cursor: pointer;
-}
-.hero-dot.is-active { background: var(--red); }
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-slide { transition: none; }
-}
+.hero-banner__title span { color: var(--red); }
+.hero-banner__cta { margin-top: 1.85rem; align-self: flex-start; }
 
 /* Promo marquee */
 .marquee { overflow: hidden; white-space: nowrap; }
