@@ -7,25 +7,33 @@
 
 ---
 
+> **DIRECTION CHANGE (2026-06-11, client-directed):** This site is now a **Longfu88 Malaysia
+> brand microsite**, NOT an independent review/affiliate site. Present as the official Longfu88
+> Malaysia destination (promotional, conversion-focused), in the style of the BK8 microsites
+> (`bk8.fishing`, `bk8.services`, `bk8-plus.com`, `bk8mypro.com`). Drop the "our review / reviewed
+> by author / editorial score" framing. Keep responsible-gambling + 18+ compliance. Client holds
+> trademark authorisation for the Longfu88 brand. Sections below are kept for SEO/technical/
+> compliance value; reinterpret all "review" language as "brand microsite" language.
+
 ## 1. What this project is
 
-A **static, ranking-optimised affiliate review site** for the **Longfu88** online casino brand,
-targeting the **Malaysia** market. It is an independent information/review platform (NOT the
-operator). All content is framed as an editorial review of the official Longfu88 brand, with a
-transparent affiliate disclosure.
+A **static, ranking-optimised brand microsite** for the **Longfu88** online casino brand,
+targeting the **Malaysia** market. It presents as the official Longfu88 Malaysia destination —
+promotional and conversion-focused (register / login / deposit / play) — not a third-party review.
 
 - **Domain:** `longfu88-malaysia.com`
 - **Market:** Malaysia (English only)
-- **Brand reviewed:** Longfu88 — official site `https://longfubet8888.com/`
+- **Brand:** Longfu88 — official operator site `https://longfubet8888.com/` (theme: "Awaken the Dragon")
 - **Engagement:** 3-month brand SEO campaign (12 weeks), part of a 2-site build (MY + SG).
 - **Goal:** Rank the 13 Malaysia brand keywords (see §6), achieve Tier-1 keyword page-one
-  positions within the 90-day window, and outrank the brand's own weak-EEAT pages on its own
-  brand queries.
+  positions within the 90-day window, and **outrank the named competitors** (`longfu-88.games`,
+  `longfu88-sg.com`, `longfu88.casino`) on "Longfu88 …" brand queries.
 
-**Why this site exists (the SERP gap):** The official Longfu88 site scores near-zero on E-E-A-T
-(white-label boilerplate About page, no licence disclosure, no author attribution) and top
-positions for "Longfu88 …" queries are currently held by phishing/unoptimised affiliates. This
-site is built to be the most trustworthy, best-optimised result for those brand queries.
+**Why this site exists (the SERP gap):** Top positions for "Longfu88 …" queries are held by weak
+or unlocalised microsites. The strongest competitor (`longfu-88.games`) is deep and MY-localised
+but discloses no licence and may carry stale offers. This site wins on **content depth +
+Malaysia localisation + technical SEO (schema, Core Web Vitals) + trust/responsible-gambling
+signals**, using offers verified live against the official operator site.
 
 ---
 
@@ -83,19 +91,24 @@ Tone         : bold, high-energy
 
 ## 4. Editorial / legal framing (read before writing any copy)
 
-- This is an **independent affiliate review site**, not Longfu88 itself. Never claim to *be* the
-  operator. Use language like "our review of Longfu88", "based on our testing".
+- **Microsite framing (current):** Write as the official Longfu88 Malaysia brand site —
+  promotional, second-person ("Sign up", "Claim your bonus", "Play now"), conversion-focused.
+  Do NOT use review/editorial framing ("our review", "we tested", editorial scores) or
+  "reviewed-by-author" bylines. (The old review framing is superseded by the client direction
+  change at the top of this file.)
 - Gambling content is **YMYL (Your Money or Your Life)**. Every factual claim (bonus amounts, game
   providers, payment methods, app availability) **must be verified against the live official site**
   `https://longfubet8888.com/` before publishing. No invented numbers, ever.
-- Every page that makes claims carries a visible **"Reviewed by [Author] · Last updated [Date]"**
-  byline.
-- Include a clear, honest **affiliate disclosure** (dedicated page + short notice on review pages).
-- Include **responsible-gambling** messaging and link **Befrienders Malaysia** as the local help
-  resource (this is the MY-specific resource — the SG site uses NCPG instead).
+- **Verified facts may go stale** — re-verify offers against the official site before each publish
+  / refresh cycle. (See the verified-facts snapshot dated 2026-06-11 in the memory store.)
+- **Affiliate disclosure** is dropped for the microsite framing; an honest **responsible-gambling**
+  treatment stays.
+- Include **responsible-gambling** messaging and link **Befrienders Malaysia** + national helpline
+  **Talian Kasih 15999** as the local help resources (MY-specific — the SG site uses NCPG instead).
+  Keep an **18+** signal sitewide.
 - Content is **English only** for this site.
-- Written authorisation to use the Longfu88 name/logo/trademarks is provided by the client before
-  kickoff — confirm it exists before publishing brand assets.
+- Client holds **written authorisation** to use the Longfu88 name/logo/trademarks — confirmed for
+  this brand-microsite usage.
 
 ---
 
