@@ -87,45 +87,34 @@
 }
 
 /* ---------------------------------------------------------------------------
-   Hero — dark, dramatic, with red glow, grain and dragon watermark
+   Hero banner — gold dragon + lady artwork with overlaid headline & CTA
    --------------------------------------------------------------------------- */
-.hero {
+.hero-banner {
   position: relative;
-  isolation: isolate;
-  background:
-    radial-gradient(120% 130% at 82% -20%, rgba(235, 0, 47, 0.42), transparent 58%),
-    radial-gradient(90% 90% at 0% 120%, rgba(159, 0, 32, 0.35), transparent 60%),
-    linear-gradient(180deg, var(--ink), var(--night));
-  color: #fff;
-  overflow: hidden;
-  /* sharp diagonal bottom edge */
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 46px), 0 100%);
+  background-image: url("../img/hero-dragon.webp");
+  background-size: cover;
+  background-position: 68% center;
+  background-repeat: no-repeat;
+  background-color: #cdd9e6; /* sky fallback before image loads */
 }
-/* fine grain overlay */
-.hero::before {
+/* left white gradient so the headline stays legible over the sky */
+.hero-banner::before {
   content: "";
-  position: absolute; inset: 0; z-index: -1;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
-  opacity: 0.05;
-  mix-blend-mode: screen;
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg,
+    rgba(255,255,255,0.95) 0%,
+    rgba(255,255,255,0.85) 26%,
+    rgba(255,255,255,0.45) 46%,
+    rgba(255,255,255,0.05) 64%,
+    rgba(255,255,255,0) 80%);
 }
-/* giant dragon character watermark */
-.dragon-mark {
-  position: absolute;
-  right: -2%;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: -1;
-  font-family: "Sofia Sans", serif;
-  font-size: 46vw;
-  line-height: 1;
-  font-weight: 900;
-  color: rgba(235, 0, 47, 0.10);
-  text-shadow: 0 0 80px rgba(235, 0, 47, 0.25);
-  user-select: none;
-  pointer-events: none;
+.hero-banner > .container-site { position: relative; z-index: 1; }
+@media (max-width: 640px) {
+  /* stronger, fuller wash on small screens for readability */
+  .hero-banner::before {
+    background: linear-gradient(90deg, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.82) 55%, rgba(255,255,255,0.35) 100%);
+  }
 }
-@media (min-width: 1024px) { .dragon-mark { font-size: 34vw; } }
 
 /* Promo marquee */
 .marquee { overflow: hidden; white-space: nowrap; }
