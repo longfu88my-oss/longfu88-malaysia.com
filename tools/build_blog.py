@@ -65,9 +65,14 @@ def build_jsonld(post: dict) -> str:
               "acceptedAnswer": {"@type": "Answer", "text": q["a"]}}
              for q in post["faq"]]},
     ]
+    def _dump(b):
+        # Escape "</" so a field value containing "</script>" (or any "</")
+        # cannot prematurely close the enclosing <script> block. "\/" is a
+        # valid JSON escape for "/", so json.loads still parses this fine.
+        return json.dumps(b, ensure_ascii=False, indent=2).replace("</", "<\\/")
+
     return "\n".join(
-        f'<script type="application/ld+json">\n'
-        f'{json.dumps(b, ensure_ascii=False, indent=2)}\n</script>'
+        f'<script type="application/ld+json">\n{_dump(b)}\n</script>'
         for b in blocks)
 
 def _env() -> Environment:

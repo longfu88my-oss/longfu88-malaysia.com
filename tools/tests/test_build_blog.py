@@ -53,3 +53,26 @@ def test_strictundefined_raises_on_missing_var():
     tpl = env.from_string("Hello {{ missing_var }}")
     with pytest.raises(UndefinedError):
         tpl.render()
+
+def test_html_escaping_onpage_vs_jsonld(tmp_path):
+    md = tmp_path / "amp.md"
+    md.write_text(
+        '---\n'
+        'slug: amp-post\n'
+        'title: "Odds & Ends at Longfu88 Malaysia"\n'
+        'meta_description: "Odds & Ends explained for Malaysia."\n'
+        'category: Games\n'
+        'primary_keyword: "odds and ends Malaysia"\n'
+        'date_published: 2026-07-25\n'
+        'date_modified: 2026-07-25\n'
+        'faq:\n'
+        '  - q: "What are odds & ends?"\n'
+        '    a: "Bits & pieces."\n'
+        '---\n\n'
+        '## Body\n\nText.\n',
+        encoding="utf-8")
+    out = bb.render_post(bb.load_post(md), _env())
+    # on-page: ampersand escaped in the <title> element
+    assert "Odds &amp; Ends at Longfu88 Malaysia" in out
+    # JSON-LD: raw ampersand preserved inside the BlogPosting headline
+    assert '"headline": "Odds & Ends at Longfu88 Malaysia"' in out
