@@ -40,7 +40,7 @@ Whether these sit inside a formal named "VIP programme," or are simply standing 
 
 ## A Worked Example of What's Confirmed
 
-To make the confirmed figures concrete rather than abstract: a player wagering roughly MYR 2,000 a week across casino and live casino, split evenly, would earn (Casino 0.90% on MYR 1,000 + Live Casino 1% on MYR 1,000) = MYR 9 + MYR 10 = **MYR 19 a week in rebates alone**, before factoring in any Live Cashback or Weekly Cashback that applies on top depending on how the week's sessions performed *(rebate figures last verified June 2026 — check the official site for current terms)*. That's the honest scale of what's confirmed — a steady, modest return on volume, not a headline "VIP" reward in the way the term sometimes implies elsewhere in the industry.
+To make the confirmed figures concrete rather than abstract: a Malaysian player wagering roughly MYR 2,000 a week across casino and live casino, split evenly, would earn (Casino 0.90% on MYR 1,000 + Live Casino 1% on MYR 1,000) = MYR 9 + MYR 10 = **MYR 19 a week in rebates alone**, before factoring in any Live Cashback or Weekly Cashback that applies on top depending on how the week's sessions performed *(rebate figures last verified June 2026 — check the official site for current terms)*. That's the honest scale of what's confirmed — a steady, modest return on volume, not a headline "VIP" reward in the way the term sometimes implies elsewhere in the industry.
 
 ## Ongoing Promotions Worth Knowing
 
@@ -58,4 +58,4 @@ Because promotional terms can be updated by the operator at any time, and becaus
 
 ## Playing Responsibly
 
-Loyalty and VIP framing across the online casino industry is designed to feel rewarding, and it's worth being clear-eyed about that: the more attractive an ongoing rewards structure feels, the more important it is to have a fixed budget and time limit decided before you sit down to play, not adjusted upward because a rebate or cashback offer is running. If you want to explore what's currently live, [register](/login-register) and check the [bonus page](/bonus) for confirmed, current terms rather than relying on promotion names alone. Longfu88 is for players aged 18 and over — Befrienders Malaysia and Talian Kasih 15999 are free, confidential resources if gambling ever stops feeling like entertainment.
+Loyalty and VIP framing across the online casino industry is designed to feel rewarding, and it's worth being clear-eyed about that: the more attractive an ongoing rewards structure feels, the more important it is to have a fixed budget and time limit decided before you sit down to play, not adjusted upward because a rebate or cashback offer is running. If you want to explore what's currently live, [register](/login-register) and check the [bonus page](/bonus) for confirmed, current terms rather than relying on promotion names alone.

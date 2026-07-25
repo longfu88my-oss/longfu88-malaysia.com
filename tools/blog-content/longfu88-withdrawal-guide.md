@@ -62,4 +62,4 @@ None of this is about distrust of the process; it's the same due-diligence check
 
 ## Before You Withdraw
 
-If you're new to the platform, it's worth reading how [deposits](/blog/longfu88-deposit-guide-duitnow-tng-usdt) and bonus turnover work before your first withdrawal request, so nothing about the process is a surprise. And as always: only play with money you're prepared to lose, and treat withdrawals as part of a responsible routine, not a race. Longfu88 is for players 18 and over — Befrienders Malaysia and Talian Kasih 15999 are free, confidential resources if you ever want to talk through your play.
+If you're new to the platform, it's worth reading how [deposits](/blog/longfu88-deposit-guide-duitnow-tng-usdt) and bonus turnover work before your first withdrawal request, so nothing about the process is a surprise. And as always: only play with money you're prepared to lose, and treat withdrawals as part of a responsible routine, not a race.

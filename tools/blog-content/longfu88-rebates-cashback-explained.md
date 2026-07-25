@@ -27,7 +27,7 @@ The distinction matters practically, too. Because rebates have no turnover requi
 
 ## Verified Rebate Rates
 
-Longfu88 publishes unlimited rebates across three verticals *(figures last verified June 2026 — check the official Longfu88 site for current terms)*:
+Longfu88 publishes unlimited rebates for Malaysian players across three verticals *(figures last verified June 2026 — check the official Longfu88 site for current terms)*:
 
 - **Casino: 0.90%**
 - **Live Casino: 1%**
@@ -69,7 +69,5 @@ It's worth being clear about one distinction: rebates and cashback are ongoing m
 ## Maximising Value Responsibly
 
 Rebates and cashback are genuine, verified value on top of ordinary play — but they're a partial return, not a reason to increase how much you wager. A 1% Live Casino rebate returns one ringgit for every hundred wagered; it softens variance over time, it doesn't offset it. The sensible approach is to treat rebates and cashback as a bonus on decisions you were already making — playing within a budget you set beforehand — rather than a justification to stake more than planned in pursuit of a larger percentage back. Check current terms on the [bonus page](/bonus) before assuming a rate or cap applies to a specific session, since promotional terms can change.
-
-Longfu88 is for players aged 18 and over. If chasing rebates or cashback ever starts to feel like the reason you're playing rather than a side benefit of play you'd be doing anyway, that's worth pausing on — Befrienders Malaysia and Talian Kasih 15999 are free, confidential resources.
 
 If you're just getting started and haven't opened an account yet, [registration](/login-register) takes a few minutes, and rebates begin accruing from your first qualifying session — there's no separate sign-up step required for the rebate mechanic itself, based on what we've verified.

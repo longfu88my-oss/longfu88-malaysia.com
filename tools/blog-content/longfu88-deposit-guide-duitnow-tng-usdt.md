@@ -23,6 +23,10 @@ faq:
 
 Malaysian players funding a Longfu88 account can choose from **Touch 'n Go, DuitNow, PayNow QR, Visa, and USDT (ERC20)** *(payment methods last verified June 2026 — check the official Longfu88 site for the current list before depositing)*. That covers the two payment types most Malaysian players reach for first — Touch 'n Go's e-wallet and DuitNow's bank-linked QR/transfer network — alongside card payments via Visa and a crypto option for players already holding USDT. Exact minimum and maximum deposit limits, and processing-time figures, aren't itemised in what we've verified for each method individually, so the cashier screen inside your logged-in account is the source to check before you send funds, not a number quoted anywhere else.
 
+## A Worked MYR Example
+
+Say you deposit **MYR 100** via DuitNow or Touch 'n Go and opt into the welcome bonus before your first deposit clears. At **188% up to MYR 2,088** *(offer figures last verified June 2026 — check the official Longfu88 site for current terms)*, a MYR 100 deposit is matched at MYR 100 × 1.88 = **MYR 188 in bonus credit**, added on top of your MYR 100 deposit for a MYR 288 playable balance — subject to the bonus's turnover terms before any bonus-derived winnings become withdrawable. One honest caveat, consistent with the FAQ below: Longfu88 doesn't publish a minimum deposit figure for DuitNow or Touch 'n Go, so the MYR 100 here is illustrative, not a stated minimum — check the amount shown at your own cashier screen for the actual floor on your chosen method.
+
 ## Depositing with DuitNow
 
 DuitNow is Malaysia's national real-time payment network, and it's a natural fit for online casino deposits because most Malaysian banking apps support it directly.
@@ -73,4 +77,4 @@ Worth noting: a deposit that's stuck is not the same thing as a deposit that's l
 
 ## Before You Deposit
 
-If you haven't registered yet, our [step-by-step registration guide](/blog/how-to-register-longfu88-malaysia) covers account creation, and it's worth deciding whether to select the [welcome bonus](/bonus) before your first deposit, since it generally needs to be opted into beforehand rather than applied after the fact. Once your account is set up, [logging in and managing your balance](/login-register) works the same way across every deposit method above. As always, only deposit what you're comfortable with — Longfu88 is for players aged 18 and over, and Befrienders Malaysia plus Talian Kasih 15999 are free, confidential resources if you ever want support around your play.
+If you haven't registered yet, our [step-by-step registration guide](/blog/how-to-register-longfu88-malaysia) covers account creation, and it's worth deciding whether to select the [welcome bonus](/bonus) before your first deposit, since it generally needs to be opted into beforehand rather than applied after the fact. Once your account is set up, [logging in and managing your balance](/login-register) works the same way across every deposit method above. As always, only deposit what you're comfortable with.

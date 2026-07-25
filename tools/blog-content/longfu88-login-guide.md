@@ -67,5 +67,3 @@ Using the same account on your phone and a desktop browser, or switching between
 ## Contacting Support
 
 If you've worked through the steps above and you're still locked out, Longfu88 runs **24/7 live chat**, plus email support at **support@longfu88.com**. Have your registered email ready when you reach out — it speeds up account lookups considerably. For a broader look at how Longfu88's support channels work and what to expect from them, see our [customer service guide](/blog/longfu88-customer-service-malaysia).
-
-Once you're back in, remember that account access is only part of playing responsibly — Longfu88 is for players aged 18 and over, and Befrienders Malaysia and Talian Kasih 15999 are free, confidential resources if your relationship with gambling ever needs a second look.

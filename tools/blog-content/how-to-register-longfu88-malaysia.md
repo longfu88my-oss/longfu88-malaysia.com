@@ -62,4 +62,4 @@ One thing worth flagging specifically: Malaysian online casino brands occasional
 
 ## What Happens Next
 
-Once you're registered and your first deposit is in, you're ready to explore the lobby — slots, live casino, sportsbook, fishing games and P2P titles are all accessible from the same account. If you ever need to sign back in on a new device or after a password reset, our [login guide](/login-register) covers that separately. As with any real-money platform, only deposit what you're comfortable losing, and remember Longfu88 is for players 18 and over. Befrienders Malaysia and Talian Kasih 15999 are free, confidential resources if you ever want support around your play.
+Once you're registered and your first deposit is in, you're ready to explore the lobby — slots, live casino, sportsbook, fishing games and P2P titles are all accessible from the same account. If you ever need to sign back in on a new device or after a password reset, our [login guide](/login-register) covers that separately. As with any real-money platform, only deposit what you're comfortable losing.

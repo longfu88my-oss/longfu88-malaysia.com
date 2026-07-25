@@ -35,7 +35,7 @@ The two things that trip people up are (1) assuming a multiplier they saw quoted
 
 Because we can't quote Longfu88's actual multiplier, here's a purely illustrative example using a hypothetical 10x turnover on the bonus amount only, so you can see how the arithmetic works — treat the "10x" figure below as an example, not a stated Longfu88 term:
 
-Say you deposit MYR 500 and receive a MYR 940 bonus (matching the 188% welcome bonus example from our [welcome bonus explainer](/blog/longfu88-welcome-bonus-explained)). If the applicable turnover requirement were 10x on the bonus amount only, you'd need to wager:
+Say you deposit MYR 500 and receive a MYR 940 bonus (matching the 188% welcome bonus example from our [welcome bonus explainer](/blog/longfu88-welcome-bonus-explained)) *(offer figures last verified June 2026 — check the official Longfu88 site for current terms)*, a realistic deposit size for Malaysian players claiming the welcome offer. If the applicable turnover requirement were 10x on the bonus amount only, you'd need to wager:
 
 **10 × MYR 940 = MYR 9,400 in total stakes** before the bonus funds (and qualifying winnings) become eligible for withdrawal.
 
@@ -69,4 +69,4 @@ The only reliable way to see where you stand on turnover is inside your own acco
 
 A practical habit: check your turnover progress at the start of a session, not only when you're ready to withdraw. Knowing roughly how much further you have to go helps you decide realistically whether to keep playing toward clearing a bonus or to treat the remaining bonus balance as something you're comfortable walking away from — both are legitimate choices, and having the number in front of you is what makes it an informed one rather than a guess.
 
-Turnover requirements aren't a trick, but they are the part of a bonus offer most worth reading carefully before you opt in. Longfu88 is for players aged 18 and over; if tracking turnover starts to feel like something you can't step away from, Befrienders Malaysia and Talian Kasih 15999 are free, confidential resources.
+Turnover requirements aren't a trick, but they are the part of a bonus offer most worth reading carefully before you opt in.
