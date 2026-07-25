@@ -16,3 +16,12 @@ Thumbs.db
 .env
 .env.*
 tools/tailwindcss
+
+# Superpowers process artifacts — strategy docs kept local (repo is public)
+docs/superpowers/
+.superpowers/
+
+# Python build/test caches
+__pycache__/
+.pytest_cache/
+tools/.venv-blog/
