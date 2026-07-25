@@ -59,6 +59,7 @@
         <a href="/fishing-games" class="hover:text-[#C70028]" style="color:var(--text)">Fishing</a>
         <a href="/p2p-games" class="hover:text-[#C70028]" style="color:var(--text)">P2P</a>
         <a href="/fast-games" class="hover:text-[#C70028]" style="color:var(--text)">Fast Games</a>
+        <a href="/blog/" class="hover:text-[#C70028]" style="color:var(--text)">Blog</a>
         <a href="/bonus" class="hover:text-[#C70028]" style="color:var(--text)">Bonus</a>
         <a href="/app-download" class="hover:text-[#C70028]" style="color:var(--text)">App</a>
       </nav>
@@ -78,6 +79,7 @@
         <a href="/fishing-games" class="py-2" style="color:var(--text)">Fishing Games</a>
         <a href="/p2p-games" class="py-2" style="color:var(--text)">P2P Games</a>
         <a href="/fast-games" class="py-2" style="color:var(--text)">Fast Games</a>
+        <a href="/blog/" class="py-2" style="color:var(--text)">Blog</a>
         <a href="/bonus" class="py-2" style="color:var(--text)">Bonus &amp; Free Credit</a>
         <a href="/app-download" class="py-2" style="color:var(--text)">App Download</a>
         <div class="mt-2 flex gap-2">
@@ -124,7 +126,7 @@
 
           {% if post.tier1_links %}
           <p class="text-sm border-l-4 bg-gray-50 p-4" style="border-left-color:var(--red)"><strong>Also see:</strong>
-            {% for t in post.tier1_links %}<a href="/{{ t }}" class="ml-2 hover:text-[#C70028]">{{ t.replace('-', ' ')|e }}</a>{% endfor %}
+            {% for t in post.tier1_links %}{% if not loop.first %}<span class="mx-1 text-gray-400">&middot;</span>{% endif %}<a href="/{{ t }}" class="ml-2 hover:text-[#C70028]">{{ t.replace('-', ' ')|e }}</a>{% endfor %}
           </p>
           {% endif %}
 
