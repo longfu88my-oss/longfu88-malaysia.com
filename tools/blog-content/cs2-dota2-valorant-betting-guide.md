@@ -19,7 +19,7 @@ faq:
     a: "Sportsbooks that carry these titles often extend markets into live play once a match starts, with round or map score lines updating in real time. Whether in-play is available for a specific fixture depends on the match and the sportsbook at the time, so check the live betting section directly rather than assuming it's always available."
 ---
 
-CS2, Dota 2 and Valorant are three of the biggest titles in competitive esports, and while they all support similar bet types on paper — match winner, map handicap, totals — the way each game actually plays out changes what those markets feel like to bet on. A round-based shooter and a long-form strategy MOBA reward different kinds of attention from a bettor. This guide walks through what distinguishes the three titles for betting purposes, the common markets across all of them, and a worked example in ringgit, using the [Longfu88 Sportsbook](/sportsbook) as the reference point.
+CS2, Dota 2 and Valorant are three of the biggest titles in competitive esports, and Malaysian bettors who already follow the region's MLBB scene are increasingly branching into all three. They all support similar bet types on paper — match winner, map handicap, totals — but the way each game actually plays out changes what those markets feel like to bet on. A round-based shooter and a long-form strategy MOBA reward different kinds of attention from a bettor. This guide walks through what distinguishes the three titles for betting purposes, the common markets across all of them, and a worked example in ringgit, using [Longfu88's esports betting](/esports) on the [Sportsbook](/sportsbook) as the reference point.
 
 ## The Three Titles at a Glance
 

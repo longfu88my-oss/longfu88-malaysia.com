@@ -19,7 +19,7 @@ faq:
     a: "Sportsbooks that carry MLBB often extend markets into live play once a series is underway, with lines updating as maps are won and lost. Availability depends on the specific match and sportsbook at the time, so check the live betting section directly rather than assuming every fixture has in-play markets."
 ---
 
-Mobile Legends: Bang Bang has one of the largest esports followings in Malaysia and the wider Southeast Asian region, and for a lot of bettors it's also the title they know best as viewers before they ever place a wager. That familiarity is a genuine advantage — but MLBB's markets still have their own structure worth understanding properly, particularly around how map handicaps settle in a best-of series. This guide covers the main MLBB markets, how to read team form without relying on invented specifics, and a worked example in ringgit, using the [Longfu88 Sportsbook](/sportsbook) as the reference point.
+Mobile Legends: Bang Bang has one of the largest esports followings in Malaysia and the wider Southeast Asian region, and for a lot of bettors it's also the title they know best as viewers before they ever place a wager. That familiarity is a genuine advantage — but MLBB's markets still have their own structure worth understanding properly, particularly around how map handicaps settle in a best-of series. This guide covers the main MLBB markets, how to read team form without relying on invented specifics, and a worked example in ringgit, using [Longfu88's esports betting](/esports) on the [Sportsbook](/sportsbook) as the reference point.
 
 ## MLBB's Esports Scene in Malaysia and SEA
 
