@@ -46,7 +46,7 @@ Before you make your first deposit, decide whether you want to claim the welcome
 
 ## Making Your First Deposit
 
-Once your account exists, you'll need to fund it to play with real money. Malaysian players can deposit using **Touch 'n Go, DuitNow, PayNow QR, Visa, or USDT (ERC20)**. Touch 'n Go and DuitNow are generally the most familiar options for Malaysian users and tend to be the fastest for local bank-linked transfers; USDT suits players already holding crypto. Specific minimum deposit amounts and processing times aren't published in what we've verified, so check the figure shown at the cashier before confirming a transaction rather than assuming a number. A full walkthrough of each method is in our [deposit guide](/blog/longfu88-deposit-guide-duitnow-tng-usdt).
+Once your account exists, you'll need to fund it to play with real money. Malaysian players can deposit using **Touch 'n Go, DuitNow, FPX, Visa, or USDT (ERC20)**. Touch 'n Go and DuitNow are generally the most familiar options for Malaysian users and tend to be the fastest for local bank-linked transfers; USDT suits players already holding crypto. Specific minimum deposit amounts and processing times aren't published in what we've verified, so check the figure shown at the cashier before confirming a transaction rather than assuming a number. A full walkthrough of each method is in our [deposit guide](/blog/longfu88-deposit-guide-duitnow-tng-usdt).
 
 ## Troubleshooting Registration
 

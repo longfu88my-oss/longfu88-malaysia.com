@@ -1,7 +1,7 @@
 ---
 slug: longfu88-deposit-guide-duitnow-tng-usdt
 title: "Longfu88 Deposit Guide: DuitNow, Touch 'n Go & USDT (Malaysia)"
-meta_description: "How to deposit at Longfu88 Malaysia using DuitNow, Touch 'n Go, USDT (ERC20), Visa and PayNow QR — steps for each method plus what to do if a deposit is stuck."
+meta_description: "How to deposit at Longfu88 Malaysia using DuitNow, Touch 'n Go, USDT (ERC20), Visa and FPX — steps for each method plus what to do if a deposit is stuck."
 category: Bonus & money
 primary_keyword: "Longfu88 deposit Malaysia"
 date_published: 2026-07-19
@@ -21,7 +21,7 @@ faq:
 
 ## Supported Deposit Methods
 
-Malaysian players funding a Longfu88 account can choose from **Touch 'n Go, DuitNow, PayNow QR, Visa, and USDT (ERC20)** *(payment methods last verified June 2026 — check the official Longfu88 site for the current list before depositing)*. That covers the two payment types most Malaysian players reach for first — Touch 'n Go's e-wallet and DuitNow's bank-linked QR/transfer network — alongside card payments via Visa and a crypto option for players already holding USDT. Exact minimum and maximum deposit limits, and processing-time figures, aren't itemised in what we've verified for each method individually, so the cashier screen inside your logged-in account is the source to check before you send funds, not a number quoted anywhere else.
+Malaysian players funding a Longfu88 account can choose from **Touch 'n Go, DuitNow, FPX, Visa, and USDT (ERC20)** *(payment methods last verified June 2026 — check the official Longfu88 site for the current list before depositing)*. That covers the two payment types most Malaysian players reach for first — Touch 'n Go's e-wallet and DuitNow's bank-linked QR/transfer network — alongside card payments via Visa, FPX's online-banking gateway, and a crypto option for players already holding USDT. Exact minimum and maximum deposit limits, and processing-time figures, aren't itemised in what we've verified for each method individually, so the cashier screen inside your logged-in account is the source to check before you send funds, not a number quoted anywhere else.
 
 ## A Worked MYR Example
 
@@ -55,9 +55,9 @@ For players already holding crypto, USDT on the ERC-20 network is Longfu88's pub
 3. Confirm the network is **ERC-20** in your sending wallet before you transmit. Sending USDT on the wrong network (for example TRC-20) to an ERC-20 address is a common way crypto deposits get lost, and it typically can't be reversed.
 4. Send the deposit and wait for the required network confirmations before expecting it to reflect in your balance.
 
-## Depositing with Visa or PayNow QR
+## Depositing with Visa or FPX
 
-The two remaining published methods are simpler to summarise since they follow familiar patterns. **Visa** deposits work like a standard online card payment — select Visa at the cashier, enter your card details in the secure payment form, and confirm. **PayNow QR** follows the same shape as DuitNow: select it at the cashier, then scan or complete the resulting QR code through your banking app. Neither method has published minimum, maximum or processing-time figures in what we've verified, so treat the cashier's on-screen details as the source of truth for your specific transaction rather than assuming they match Touch 'n Go or DuitNow's behaviour.
+The two remaining published methods are simpler to summarise since they follow familiar patterns. **Visa** deposits work like a standard online card payment — select Visa at the cashier, enter your card details in the secure payment form, and confirm. **FPX** works differently to DuitNow's QR flow: it's Malaysia's online banking gateway, so you select it at the cashier, choose your own bank from the list, and you're redirected to log in to your own online banking portal to authorise the transfer before being sent back to Longfu88. Neither method has published minimum, maximum or processing-time figures in what we've verified, so treat the cashier's on-screen details as the source of truth for your specific transaction rather than assuming they match Touch 'n Go or DuitNow's behaviour.
 
 ## Minimums and Processing Times
 

@@ -25,7 +25,7 @@ To request a withdrawal from Longfu88, log in to your account, open the cashier 
 
 ## Withdrawal Methods
 
-Longfu88's published Malaysia payment methods are Touch 'n Go, DuitNow, PayNow QR, Visa, and USDT (ERC-20) *(last verified June 2026 — check the official Longfu88 site for current terms)*. Whether every method is available on both the deposit and withdrawal side, or whether withdrawals are restricted to a subset of these, isn't itemised separately in what we've verified — the safe assumption is to check which options the withdrawal form actually offers you rather than expecting an exact mirror of the deposit list. If you're withdrawing crypto, double-check that the receiving wallet address you provide is correct and on the ERC-20 network before submitting — crypto transactions are not reversible once sent.
+Longfu88's published Malaysia payment methods are Touch 'n Go, DuitNow, FPX, Visa, and USDT (ERC-20) *(last verified June 2026 — check the official Longfu88 site for current terms)*. Whether every method is available on both the deposit and withdrawal side, or whether withdrawals are restricted to a subset of these, isn't itemised separately in what we've verified — the safe assumption is to check which options the withdrawal form actually offers you rather than expecting an exact mirror of the deposit list. If you're withdrawing crypto, double-check that the receiving wallet address you provide is correct and on the ERC-20 network before submitting — crypto transactions are not reversible once sent.
 
 ## Clearing Bonus Turnover First
 
